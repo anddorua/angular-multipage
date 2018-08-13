@@ -1,0 +1,5 @@
+<h1>For Video</h1>
+<ng-container [ngSwitch]="state | async">
+  <app-first-view *ngSwitchCase="'one'"></app-first-view>
+  <app-second-view *ngSwitchCase="'two'"></app-second-view>
+</ng-container>
